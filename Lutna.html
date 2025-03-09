@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto </title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="crypto.css" />
+  </head>
+  <body>
+    <div class="dashboard">
+      <aside class="sidebar">
+        <div class="logo">
+          <i class="bx bxs-dashboard"></i>
+        </div>
+        <div class="nav-item">
+          <i class="bx bx-home-alt"></i>
+        </div>
+        <div class="nav-item">
+          <i class="bx bx-stats"></i>
+        </div>
+        <div class="nav-item">
+          <i class="bx bx-bookmark"></i>
+        </div>
+        <div class="nav-item">
+          <i class="bx bx-color"></i>
+        </div>
+        <div class="nav-item">
+          <i class="bx bx-cog"></i>
+        </div>
+        <div class="nav-item">
+          <i class="bx bx-help-circle"></i>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <header class="header">
+          <div class="header-left">
+            <h1>Overview</h1>
+          </div>
+          <div class="header-right">
+            <button class="nav-item">🔍</button>
+            <button class="nav-item">🔔</button>
+            <div class="user-profile">
+              <img src="./images/user.jpg" alt="Profile" class="avatar" />
+              <span>John M. ▼</span>
+            </div>
+          </div>
+        </header>
+
+        <section class="portfolio-section">
+          <div class="balance-card">
+            <div class="balance-header">
+              <div>
+                <p style="color: #64748b; font-weight: 500">
+                  Portfolio balance
+                </p>
+                <h2 class="balance-amount">$17,643.41</h2>
+                <p style="color: #34c759; font-weight: 500">+2.4% this week</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="assets-grid">
+            <div class="asset-card btc">
+              <div class="crypto-icon">₿</div>
+              <div class="asset-amount">1.25 BTC</div>
+              <div class="asset-value">$2,948.04</div>
+              <div class="change-indicator positive">+0.14%</div>
+            </div>
+            <div class="asset-card ltc">
+              <div class="crypto-icon">Ł</div>
+              <div class="asset-amount">0.32 LTC</div>
+              <div class="asset-value">$2,948.04</div>
+              <div class="change-indicator positive">+0.31%</div>
+            </div>
+            <div class="asset-card eth">
+              <div class="crypto-icon">Ξ</div>
+              <div class="asset-amount">1.25 ETH</div>
+              <div class="asset-value">$2,948.04</div>
+              <div class="change-indicator positive">+0.27%</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="market-section">
+          <h2>Market is down 0.80%</h2>
+          <div class="market-filters">
+            <button class="filter-button">24h ▼</button>
+            <button class="filter-button">Top gainers ▼</button>
+          </div>
+
+          <table class="market-table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Change</th>
+                <th>Market Cap</th>
+                <th>Watch</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="coin-cell">
+                    <div class="coin-icon"></div>
+                    <div class="coin-info">
+                      <span class="coin-name">Band Protocol</span>
+                      <span class="coin-symbol">BAND</span>
+                    </div>
+                  </div>
+                </td>
+                <td>$2.42</td>
+                <td class="positive">+13.38%</td>
+                <td>$399.8M</td>
+                <td>⭐</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="coin-cell">
+                    <div class="coin-icon"></div>
+                    <div class="coin-info">
+                      <span class="coin-name">VeChain</span>
+                      <span class="coin-symbol">VET</span>
+                    </div>
+                  </div>
+                </td>
+                <td>$7.48</td>
+                <td class="positive">+11.19%</td>
+                <td>$152.5M</td>
+                <td>⭐</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="promo-card">
+            <h3>Earn free crypto</h3>
+            <p>
+              Learn about different cryptocurrencies and earn them for free!
+            </p>
+            <button class="promo-button">Earn Now</button>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
